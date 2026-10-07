@@ -12,4 +12,9 @@
 // Expected output:
 //   43°C: Stay inside, it's very hot!
 
-// your code here
+const temp = 4;
+
+if (temp >=  40){console.log("Stay inside, its very hot")}
+else if (temp >=30){console.log("Hot, drink lots of water")}
+else if (temp >= 20){console.log("Nice weather, go outside")}
+else {console.log("Cool, take a jacket")}
