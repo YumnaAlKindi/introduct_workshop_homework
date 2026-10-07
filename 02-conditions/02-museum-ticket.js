@@ -11,4 +11,10 @@
 // Expected output:
 //   Ticket price: 1 OMR
 
-// your code here
+const age = 30;
+const isStudent = true;
+
+
+if (age < 6){console.log("Museum ticket : FREE")}
+else if(age >=60 || isStudent){console.log("Museun ticket : 1 OMR")}
+else {console.log("Muesum ticket : 2 OMR")}
