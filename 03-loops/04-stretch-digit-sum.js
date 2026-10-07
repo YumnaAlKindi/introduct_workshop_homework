@@ -10,4 +10,13 @@
 // Expected output:
 //   Digit sum of 2026 = 10
 
-// your code here
+
+let num = 3026;
+let real_num = num;
+let digit = 0;
+while(num > 0){
+    digit += num % 10;
+    num = Math.floor(num/10);
+}
+console.log(`Digit sum of ${real_num} = ${digit}`)
+
