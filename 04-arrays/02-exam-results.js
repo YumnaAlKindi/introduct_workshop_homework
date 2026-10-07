@@ -10,4 +10,13 @@
 
 const scores = [78, 45, 92, 60, 55, 88, 39];
 
-// your code here
+let pass = 0;
+let min = 100;
+
+for (const item of scores){
+    if (item < min ){min = item}
+    if (item >= 60){pass++}
+}
+
+console.log(`Passed : ${pass} of ${scores.length}`);
+console.log(`Lowest score: ${min}`);
