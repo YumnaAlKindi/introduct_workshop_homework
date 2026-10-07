@@ -9,6 +9,12 @@
 //   [ 'Sur', 'Nizwa', 'Sohar', 'Salalah', 'Muscat' ]
 //   (the browser console shows arrays a bit differently — the order is what matters)
 
-const cities = ["Muscat", "Salalah", "Sohar", "Nizwa", "Sur"];
+const cities1 = ["Muscat", "Salalah", "Sohar", "Nizwa", "Sur"];
 
-// your code here
+let rev_cities = [];
+let length = (cities1.length) - 1
+
+for(i = length ; i >= 0; i-- ){
+    rev_cities.push(cities1[i]);
+}
+console.log(rev_cities)
