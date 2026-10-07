@@ -8,7 +8,15 @@
 // Expected output:
 //   Nizwa is at index 3
 
-const cities = ["Muscat", "Salalah", "Sohar", "Nizwa", "Sur"];
+const cities2 = ["Muscat", "Salalah", "Sohar", "Nizwa", "Sur"];
 const target = "Nizwa";
 
-// your code here
+let city = "Sohar";
+let index = 0;
+let count = 0;
+
+for (const item of cities2){
+    if(item == city){ index = count}
+    count++
+}
+console.log(`${city} is at index ${index}`);

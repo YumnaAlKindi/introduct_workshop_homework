@@ -11,4 +11,19 @@
 //   After the trip to Salalah: 86000 km
 //   Color: white
 
-// your code here
+let car = {
+    brand:"Toyota",
+    model:"Land Cruiser",
+    year:2020,
+    mileage:85000,
+}
+
+console.log(`${car.brand} ${car.model} (${car.year}), ${car.mileage} km`);
+
+car.mileage = car.mileage + 1000;
+console.log(` update : ${car.brand} ${car.model} (${car.year}), ${car.mileage} km`);
+
+car.color = "White";
+console.log(` update color : ${car.brand} ${car.model} (${car.year}), ${car.mileage} km, color: ${car.color}`);
+
+
