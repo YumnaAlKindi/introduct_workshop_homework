@@ -11,4 +11,9 @@
 //   ****
 //   *****
 
-// your code here
+let rows = 5;
+let stars = "";
+for( i = rows; rows >=0; rows--){
+    console.log(stars);
+    stars+= "*";
+}
